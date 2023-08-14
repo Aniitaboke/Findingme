@@ -1,0 +1,37 @@
+.main{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(money-image\ 4.png);
+    padding-top: 40px;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+    
+}
+ul{
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease;
+}
+li a:hover{
+    color: darkolivegreen;
+}
+p a{
+    text-decoration: none;
+           padding: 5px 10px;
+            border-radius: 3px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer; 
+}
+p a:hover{
+    color: black;
+    cursor: pointer;
+}

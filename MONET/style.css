@@ -1,0 +1,86 @@
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, 
+    rgba(0,0,0,0.5)50%), url(money-image\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.main h2{
+	text-align: center;
+}
+
+.main h1{
+	text-align: center;
+}
+
+#login_error {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+  }
+  
+	
+form {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+select{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid darkolivegreen;
+    border-radius: 6px;
+    outline: none;
+}
+option{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+}	
+
+input[type="submit"] {
+	background-color: darkolivegreen;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	margin-top: 20px;
+	width: 100%;
+}
+
+input[type="submit"]:hover {
+	background-color: black;
+	color: whitesmoke;
+}
+.one{
+	font-weight: bold;
+	font-size: 18px;
+}
+.one a{
+	text-decoration: none;
+	color: whitesmoke;
+	transition: 0.4s ease;	
+}
+.one a:hover{
+	color: darkolivegreen;
+}

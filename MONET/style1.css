@@ -1,0 +1,89 @@
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, 
+    rgba(0,0,0,0.5)50%), url(money-image\ 1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+
+  
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+.container .content{
+    width: 700px;
+    text-align: center;
+    color: white;
+}
+.container .content h3{
+    font-size: 4vw;
+}
+.container.content p{
+    font-size: 20px;
+    padding: 10px 0;
+    color: whitesmoke;
+}
+.container.content p span{
+    color: darkolivegreen;
+
+}
+.content a{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    background: black;
+    color: white;
+    padding: 10px 35px;
+    font-size: 20px;
+}
+.content a:hover{
+    background: darkolivegreen;
+}
+
+.form-container form{
+    text-align: center;
+    width: 500px;
+    background: white;
+    border: 2px solid black;
+    padding: 20px
+}
+.form-container form h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.form-container form .box{
+    width: 70%;
+    padding: 12px 15px;
+    font-size: 20px;
+    border: 2px solid black;
+    margin: 10px 0;
+}
+.form-container form .form-btn{
+    display: inline-block;
+    margin-top: 10px;
+    background: black;
+    color: white;
+    padding: 10px 35px;
+    font-size: 20px;
+    width: 70%;
+    cursor: pointer;
+}
+.form-container form .form-btn:hover{
+    background: darkolivegreen;
+}
+.form-container form p{
+    font-size: 20px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+.form-container form p a{
+    color:darkolivegreen;
+    text-decoration: none;
+}

@@ -1,0 +1,18 @@
+.main{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(money-image\ 4.png);
+    background-position: center;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+    text-align: center;
+}
+p a{
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.5s ease;
+}
+p a:hover{
+    color: darkolivegreen;
+}

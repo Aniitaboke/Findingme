@@ -1,0 +1,42 @@
+.main{
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(money-image\ 5.jpg);
+    font-family: sans-serif;
+    background-position: center;
+    background-size: cover;
+    padding-top: 40px;
+    color: antiquewhite;
+    text-align: center;
+}
+.one{
+    color: black;
+    font-size: 18px;
+}
+.one ul{
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+
+}
+.one li a{
+    text-decoration: none;
+    color: black;
+    transition: 0.4s ease;
+}
+.one li a:hover{
+    color: darkolivegreen;
+}
+p a{
+    text-decoration: none;
+           padding: 5px 10px;
+            border-radius: 3px;
+            border: none;
+            background-color: #007bff;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer; 
+}
+p a:hover{
+    color: black;
+}
+
+
