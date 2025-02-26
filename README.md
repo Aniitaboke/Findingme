@@ -1,3 +1,3 @@
 # Findingme
 Start up
-A local money tranfsre web application
+A local money transfer web application
